@@ -62,7 +62,7 @@ This is especially useful when a workload is pending or not progressing as expec
 
 ## Why use this alongside CLI tools
 
-The plugin is not trying to replace kubectl or Volcano CLI. Those remain important for automation, scripting, and raw object inspection. What the plugin improves is the interactive troubleshooting experience: discovering related resources more quickly, understanding structured detail pages more easily, and moving from scheduling state to runtime output without switching tools constantly.
+The plugin is not trying to replace kubectl or Volcano CLI. Those remain important for automation, scripting, and raw object inspection. What the plugin improves is the interactive troubleshooting experience: discovering related resources more quickly, understanding structured detail pages, and moving from scheduling state to runtime output without switching tools constantly.
 
 ## What’s next
 
