@@ -80,4 +80,4 @@ To try the plugin:
 
 ![Volcano plugin in the Headlamp Plugin Catalog](volcano-plugin-catalog.png)
 
-If you have ideas, feature requests, or bug reports, please open an issue in the plugins repository. Feedback from real Volcano users will help shape what comes next.
+If you have ideas, feature requests, or bug reports, open an issue in the plugins repository. Feedback from real Volcano users will help shape what comes next.
