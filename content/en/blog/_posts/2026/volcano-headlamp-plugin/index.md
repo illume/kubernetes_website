@@ -70,7 +70,13 @@ This work brings the main Volcano workflow into Headlamp, including Jobs, Queues
 
 ## Try it and share feedback
 
-To try the plugin, Install Headlamp and open the Plugin Catalog from the Headlamp UI. From there, Search for Volcano, Install the Volcano plugin and connect Headlamp to a Kubernetes cluster where Volcano is already installed.
+To try the plugin:
+
+1. Install Headlamp.
+1. Open the Plugin Catalog from the Headlamp UI.
+1. Search for Volcano.
+1. Install the Volcano plugin.
+1. Connect Headlamp to a Kubernetes cluster where Volcano is already installed.
 
 ![Volcano plugin in the Headlamp Plugin Catalog](volcano-plugin-catalog.png)
 
