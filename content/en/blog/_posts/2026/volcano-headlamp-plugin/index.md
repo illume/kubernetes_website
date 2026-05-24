@@ -66,7 +66,7 @@ The plugin is not trying to replace kubectl or Volcano CLI. Those remain importa
 
 ## What’s next
 
-The current work brings the main Volcano workflow into Headlamp, including Jobs, Queues, PodGroups, and the map view. Future work will build on this foundation with Prometheus integration, richer scheduling insights, and more workflow-oriented visibility across Volcano workloads.
+This work brings the main Volcano workflow into Headlamp, including Jobs, Queues, PodGroups, and the map view. Future work will build on this foundation with Prometheus integration, richer scheduling insights, and more workflow-oriented visibility across Volcano workloads.
 
 ## Try it and share feedback
 
