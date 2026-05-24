@@ -24,7 +24,7 @@ The plugin focuses on the three Volcano resources you typically start with: Jobs
 
 ## Jobs: workload status, actions, and logs
 
-The Job view is the center of the current plugin experience. In the list view, you can quickly understand the basics of a workload, including its status, queue, running versus minimum-available values, task count, and age.
+The Job view is the center of the plugin experience. In the list view, you can quickly understand the basics of a workload, including its status, queue, running versus minimum-available values, task count, and age.
 
 ![Volcano Jobs list in Headlamp](volcano-jobs-list.png)
 
