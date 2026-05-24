@@ -14,7 +14,7 @@ author: >
 
 ## Visual context helps teams understand Volcano jobs, queues, and PodGroups faster
 
-Working with Volcano often means moving across several related resources while trying to understand a batch workload. You might start with a Job, then look at the related PodGroup, inspect the Pods behind it, check the Queue, and finally return to the Job again. All of that is possible with CLI tools like kubectl and Volcano CLI, but it can become fragmented very quickly.
+Working with Volcano often means moving across several related resources while trying to understand a batch workload. You might start with a Job, then look at the related PodGroup, inspect the Pods behind it, check the Queue, and finally return to the Job again. All of that is possible with CLI tools like `kubectl` and Volcano CLI, but it can become fragmented very quickly.
 
 The Volcano plugin for Headlamp makes that workflow easier by bringing the key resources together in a single UI. Instead of reconstructing relationships manually, you can move directly between Jobs, Queues, PodGroups, Pods, and events from the same interface.
 
@@ -62,7 +62,7 @@ This is especially useful when a workload is pending or not progressing as expec
 
 ## Why use this alongside CLI tools
 
-The plugin is not trying to replace kubectl or Volcano CLI. Those remain important for automation, scripting, and raw object inspection. What the plugin improves is the interactive troubleshooting experience: discovering related resources more quickly, understanding structured detail pages, and moving from scheduling state to runtime output without switching tools constantly.
+The plugin is not trying to replace `kubectl` or Volcano CLI. Those remain important for automation, scripting, and raw object inspection. What the plugin improves is the interactive troubleshooting experience: discovering related resources more quickly, understanding structured detail pages, and moving from scheduling state to runtime output without switching tools constantly.
 
 ## What’s next
 
