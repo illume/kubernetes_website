@@ -12,17 +12,17 @@ author: >
 
 **[Headlamp](https://headlamp.dev/)** is an extensible Kubernetes web UI. With its plugin system, Headlamp can surface APIs and workflows beyond the built-in Kubernetes resources. The Volcano plugin brings core Volcano resources into Headlamp so users can inspect workload state, queue behavior, and gang scheduling details in one place.
 
-## Visual Context Helps Teams Understand Volcano Jobs, Queues, and PodGroups Faster
+## Visual context helps teams understand Volcano jobs, queues, and PodGroups faster
 
 Working with Volcano often means moving across several related resources while trying to understand a batch workload. A user may start with a Job, then look at the related PodGroup, inspect the Pods behind it, check the Queue, and finally return to the Job again. All of that is possible with CLI tools like kubectl and Volcano CLI, but it can become fragmented very quickly.
 
 The Volcano plugin for Headlamp makes that workflow easier by bringing the key resources together in a single UI. Instead of reconstructing relationships manually, users can move directly between Jobs, Queues, PodGroups, Pods, and events from the same interface.
 
-## The Volcano Plugin Helps Teams Inspect Jobs, Queues, and PodGroups in kubernetes-sigs/headlamp
+## The Volcano plugin helps teams inspect jobs, queues, and PodGroups in Headlamp
 
 The plugin currently focuses on the three Volcano resources most users start with: Jobs, Queues, and PodGroups. Each one has dedicated list and detail views inside a new Volcano section in the Headlamp sidebar.
 
-## Jobs: Workload Status, Actions, and Logs
+## Jobs: workload status, actions, and logs
 
 The **Job** view is the center of the current plugin experience. In the list view, users can quickly understand the basics of a workload, including its status, queue, running versus minimum-available values, task count, and age.
 
@@ -36,7 +36,7 @@ Another useful addition is direct **Job logs** access. Users can open logs for P
 
 ![Volcano Job logs in Headlamp](volcano-job-logs.png)
 
-## Queues: Scheduling Capacity and Resource Context
+## Queues: scheduling capacity and resource context
 
 The **Queue** view provides much more than a small set of top-level fields. It helps users understand how resources are being allocated and constrained by surfacing capacity, allocated resources, deserved and guaranteed resources, reservation details, child queues, and more.
 
@@ -44,7 +44,7 @@ This makes the Queue page much more useful when trying to understand how resourc
 
 ![Volcano Queue details in Headlamp](volcano-queue-detail.png)
 
-## PodGroups: Gang Scheduling State and Blockers
+## PodGroups: gang scheduling state and blockers
 
 **PodGroups** are central to understanding gang scheduling in Volcano, and the plugin now makes that state easier to inspect. The PodGroup view highlights progress, conditions, minimum resource requirements, and more.
 
@@ -52,7 +52,7 @@ This also gives users a clearer picture of whether a workload is blocked because
 
 ![Volcano PodGroup details in Headlamp](volcano-podgroup-detail.png)
 
-## Map View: Jobs, Queues, PodGroups, and Pods in One Place
+## Map view: jobs, queues, PodGroups, and pods in one place
 
 The map view shows how Volcano resources are connected. Instead of inspecting each resource separately, users can see how Jobs, PodGroups, Queues, and Pods relate to one another.
 
@@ -60,15 +60,15 @@ This is especially useful when a workload is pending or not progressing as expec
 
 ![Volcano resources in the Headlamp map view](volcano-map-view.png)
 
-## Why Use This Alongside CLI Tools
+## Why use this alongside CLI tools
 
 The plugin is not trying to replace kubectl or Volcano CLI. Those remain important for automation, scripting, and raw object inspection. What the plugin improves is the interactive troubleshooting experience: discovering related resources more quickly, understanding structured detail pages more easily, and moving from scheduling state to runtime output without switching tools constantly.
 
-## What’s Next
+## What’s next
 
 The current work brings the main Volcano workflow into Headlamp, including Jobs, Queues, PodGroups, and the map view. Future work will build on this foundation with Prometheus integration, richer scheduling insights, and more workflow-oriented visibility across Volcano workloads.
 
-## Try It and Share Feedback
+## Try it and share feedback
 
 To try the plugin, Install Headlamp and open the Plugin Catalog from the Headlamp UI. From there, Search for Volcano, Install the Volcano plugin and connect Headlamp to a Kubernetes cluster where Volcano is already installed.
 
