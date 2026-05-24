@@ -8,9 +8,9 @@ author: >
   [Mahmoud Magdy](https://github.com/mahmoudmagdy1-1) (independent)
 ---
 
-**[Volcano](https://volcano.sh/)** is a cloud-native batch scheduler for Kubernetes, built for high-performance computing, AI/ML, and other batch workloads.
+[Volcano](https://volcano.sh/) is a cloud-native batch scheduler for Kubernetes, built for high-performance computing, AI/ML, and other batch workloads.
 
-**[Headlamp](https://headlamp.dev/)** is an extensible Kubernetes web UI. With its plugin system, Headlamp can surface APIs and workflows beyond the built-in Kubernetes resources. The Volcano plugin brings core Volcano resources into Headlamp so users can inspect workload state, queue behavior, and gang scheduling details in one place.
+[Headlamp](https://headlamp.dev/) is an extensible Kubernetes web UI. With its plugin system, Headlamp can surface APIs and workflows beyond the built-in Kubernetes resources. The Volcano plugin brings core Volcano resources into Headlamp so users can inspect workload state, queue behavior, and gang scheduling details in one place.
 
 ## Visual context helps teams understand Volcano jobs, queues, and PodGroups faster
 
