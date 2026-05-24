@@ -20,7 +20,7 @@ The Volcano plugin for Headlamp makes that workflow easier by bringing the key r
 
 ## The Volcano plugin helps teams inspect jobs, queues, and PodGroups in Headlamp
 
-The plugin currently focuses on the three Volcano resources most users start with: Jobs, Queues, and PodGroups. Each one has dedicated list and detail views inside a new Volcano section in the Headlamp sidebar.
+The plugin focuses on the three Volcano resources most users start with: Jobs, Queues, and PodGroups. Each one has dedicated list and detail views inside a new Volcano section in the Headlamp sidebar.
 
 ## Jobs: workload status, actions, and logs
 
@@ -46,7 +46,7 @@ This makes the Queue page much more useful when trying to understand how resourc
 
 ## PodGroups: gang scheduling state and blockers
 
-PodGroups are central to understanding gang scheduling in Volcano, and the plugin now makes that state easier to inspect. The PodGroup view highlights progress, conditions, minimum resource requirements, and more.
+PodGroups are central to understanding gang scheduling in Volcano, and the plugin makes that state easier to inspect. The PodGroup view highlights progress, conditions, minimum resource requirements, and more.
 
 This also gives users a clearer picture of whether a workload is blocked because it has not yet met the scheduling conditions required to run as a group.
 
