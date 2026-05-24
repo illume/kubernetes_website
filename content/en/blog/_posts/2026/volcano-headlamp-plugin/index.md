@@ -24,7 +24,7 @@ The plugin currently focuses on the three Volcano resources most users start wit
 
 ## Jobs: workload status, actions, and logs
 
-The **Job** view is the center of the current plugin experience. In the list view, users can quickly understand the basics of a workload, including its status, queue, running versus minimum-available values, task count, and age.
+The Job view is the center of the current plugin experience. In the list view, users can quickly understand the basics of a workload, including its status, queue, running versus minimum-available values, task count, and age.
 
 ![Volcano Jobs list in Headlamp](volcano-jobs-list.png)
 
@@ -38,7 +38,7 @@ Another useful addition is direct **Job logs** access. Users can open logs for P
 
 ## Queues: scheduling capacity and resource context
 
-The **Queue** view provides much more than a small set of top-level fields. It helps users understand how resources are being allocated and constrained by surfacing capacity, allocated resources, deserved and guaranteed resources, reservation details, child queues, and more.
+The Queue view provides much more than a small set of top-level fields. It helps users understand how resources are being allocated and constrained by surfacing capacity, allocated resources, deserved and guaranteed resources, reservation details, child queues, and more.
 
 This makes the Queue page much more useful when trying to understand how resources are being shared and limited across queues.
 
@@ -46,7 +46,7 @@ This makes the Queue page much more useful when trying to understand how resourc
 
 ## PodGroups: gang scheduling state and blockers
 
-**PodGroups** are central to understanding gang scheduling in Volcano, and the plugin now makes that state easier to inspect. The PodGroup view highlights progress, conditions, minimum resource requirements, and more.
+PodGroups are central to understanding gang scheduling in Volcano, and the plugin now makes that state easier to inspect. The PodGroup view highlights progress, conditions, minimum resource requirements, and more.
 
 This also gives users a clearer picture of whether a workload is blocked because it has not yet met the scheduling conditions required to run as a group.
 
